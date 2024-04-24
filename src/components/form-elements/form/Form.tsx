@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 
 type FromProps = {
-  chidlren: ReactNode;
+  children: ReactNode;
   title?: string;
   onSubmit: () => void;
 }
@@ -16,7 +16,7 @@ const Form = (props: FromProps): ReactNode => {
 
   return <form onSubmit={ (event: React.FormEvent<HTMLFormElement>) => handleOnSubmit(event) }>
     { props.title ? <h1>{ props.title }</h1> : null}
-    { props.chidlren }
+    { props.children }
   </form>
 }
 

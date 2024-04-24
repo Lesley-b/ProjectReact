@@ -11,7 +11,7 @@ const ROUTES: Array<IRoute> = [
   },
   {
     name: Routes.SIGNUP,
-    path: "/signup",
+    path: "/sign-up",
     component: <Signup />,
     requiresAuth: false
   },

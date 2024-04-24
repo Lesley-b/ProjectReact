@@ -1,5 +1,5 @@
 import React, { ChangeEvent, ReactNode } from "react";
-import { IFormElement } from "../../../shared/models/IFormElement";
+import { IFormElement } from "../../../shared/models/IFormElement.model";
 
 type InputProps = {
   label: string;
