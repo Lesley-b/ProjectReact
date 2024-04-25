@@ -45,6 +45,7 @@ const useForm = (initialFormState: IFormState): [IFormState, FormHookAction, For
     })
   }, [])
 
-  
   return [formState, handleInputChange, handleDisableInput]
 }
+
+export default useForm;

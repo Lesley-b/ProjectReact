@@ -12,6 +12,7 @@ type InputProps = {
 
 const Input = (porps: InputProps): ReactNode => {
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
     porps.onChange(porps.formElement, e.target.value);
   };
 
